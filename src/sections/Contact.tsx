@@ -49,6 +49,7 @@ export default function Contact() {
         setSubmitStatus("error");
       }
     } catch (error) {
+      console.error(error);
       setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);
