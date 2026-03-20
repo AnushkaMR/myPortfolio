@@ -1,13 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  FaCode,
-  FaPaintBrush,
-  FaPenNib,
-  FaMedal,
-  FaLaptopCode,
-} from "react-icons/fa";
+import { FaCode, FaPaintBrush, FaPenNib, FaLaptopCode } from "react-icons/fa";
 
 const services = [
   {
